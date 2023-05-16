@@ -36,6 +36,7 @@ Atualizar com o código do github:
 
 Sobe sua atualização para o github:
 ```git push```
+
 comando completo:
-```git push -u oringin <nome da branch>```
+```git push -u origin <nome da branch>```
 
