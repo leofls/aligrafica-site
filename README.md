@@ -1,5 +1,6 @@
 # Aligrafica site
-
+## Sobre 
+Projeto utilizando HTML, CSS e JS.
 ## Comandos git
 Listas todas as branch:
 ```git branch```
