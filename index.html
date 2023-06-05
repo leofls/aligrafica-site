@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/iconAliG.ico"
+      type="image/x-icon"
+    />
     <title>Aligráfica</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+  </head>
+  <body>
+    <section>
+      <div class="quem_somos">
+        <h2>Quem somos</h2>
+        <p>
+          Cada section deve ser identificado, geralmente incluindo um cabeçalho
+          (elemento (en-US)(en-US)) como um filho do elemento section.
+        </p>
+      </div>
+    </section>
 
-    <link rel="stylesheet" href="./assets/css/reset.css">
-</head>
-<body>
-    
-</body>
+    <section>
+      <div class="produtos">
+        <h2>Produtos de alta qualidade</h2>
+        <p>
+          Nossa impressão de documentos e fotos é produzida com materiais de
+          alta qualidade. Oferecemos acabamentos profissionais ao seu documento
+          ou foto.
+        </p>
+      </div>
+    </section>
+
+    <section class="duvida">
+      <h2>AINDA COM DÚVIDAS?</h2>
+      <p>
+        <span class="podemos">Podemos te ajudar.</span> Entre em contato conosco
+        e solicite um orçamento.
+      </p>
+      <form class="formulario" action="enviar-para-server" method="post">
+        <div class="fields">
+          <input type="text" id="nome" placeholder="Nome" />
+        </div>
+        <div class="fields">
+          <input type="text" id="email" placeholder="Email" />
+        </div>
+        <div class="fields">
+          <input type="text" id="cell" placeholder="Celular" />
+        </div>
+        <div class="fields">
+          <textarea id="msg" placeholder="Mensagem"></textarea>
+        </div>
+        <div class="termosuso">
+          <input type="checkbox" name="checktermos" />
+          <label for="termos">Aceito os termos de uso.</label>
+        </div>
+        <button type="submit">SAIBA MAIS! :D</button>
+      </form>
+    </section>
+  </body>
 </html>
