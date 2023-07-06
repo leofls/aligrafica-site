@@ -40,3 +40,8 @@ Sobe sua atualização para o github:
 comando completo:
 ```git push -u origin <nome da branch>```
 
+Delete branch Local:
+```git branch -d <branch_name>```
+
+Delete branch Remota:
+```git push origin -d <branch_name>```
