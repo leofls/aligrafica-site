@@ -1,14 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/iconAliG.ico"
+      type="image/x-icon"
+    />
     <title>Aligráfica</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- <img class="logo" src="./assets/img/iconAliG.ico" alt="logo"> -->
+        <a class="main-link" href="/">
+          <h2 class="logo-text">
+            Aligrafica
+          </h2>
+        </a>
+        
+        <ul class="nav-menu">
+          <li>
+            <a class="main-link" href="#">
+              Serviços
+            </a>
+          </li>
+          <li>
+            <a class="main-link" href="#">
+              Pacotes
+            </a>
+          </li>
+          <li>
+            <a class="main-link" href="#">
+              Segurança
+            </a>  
+          </li>
+          <li>
+            <a class="main-link" href="#">
+              Contato
+            </a>
+            
+          </li>
+        </ul>
+        
+        <div class="right-menu"></div>
 
-    <link rel="stylesheet" href="./assets/css/reset.css">
-</head>
-<body>
-    
-</body>
+      </nav>
+      <section class="banner">
+
+      </section>      
+    </header>
+
+    <!---Seção do "Quem somos"--->
+    <section class="quem">
+      <div class="quem_somos">
+        <h2>Sobre nós</h2>
+        <p>
+          Cada section deve ser identificado, geralmente incluindo um cabeçalho
+          (elemento (en-US)(en-US)) como um filho do elemento section.
+        </p>
+      </div>
+      <div class="imagemquem">
+        <img src="./assets/img/image 12.png" />
+      </div>
+    </section>
+
+    <!---ELEMENTO PAI: Grid de Serviços--->
+    <section class="grids">
+      <div class="descservico">Serviços</div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="./assets/img/mingcute_shirt-line.png" />
+          <p>IMPRESSÃO DE CAMISAS</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/caneca.png" />
+          <p>IMPRESSÃO DE CANECAS</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/mdi_paper-edit.png" />
+          <p>IMPRESSÃO DE DOCUMENTOS</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/mdi_present.png" />
+          <p>IMPRESSÃO DE BRINDES</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/mdi_card-text-outline.png" />
+          <p>CARTÕES DE VISITA</p>
+        </div>
+      </div>
+      <button type="submit">SAIBA MAIS! :D</button>
+    </section>
+
+    <!---Seção dos "Produtos"--->
+    <section class="produtos">
+      <div class="descricaoprodutos">
+        <h2>Produtos de alta qualidade</h2>
+        <p>
+          Nossa impressão de documentos e fotos é produzida com materiais de
+          alta qualidade. Oferecemos acabamentos profissionais ao seu documento
+          ou foto.
+        </p>
+      </div>
+      <div class="imagemproduto">
+        <img
+        src="https://www.ouroestamparia.com.br/static/3ad6a58273cc876b7a6429c0b176a602/47498/camiseta-berco-impressora-estampada.jpg"
+        />
+      </div>
+    </section>
+
+    <!---Formulário de contato, no caso de dúvida--->
+    <section class="duvida">
+      <h2>AINDA COM DÚVIDAS?</h2>
+      <p>
+        <span class="podemos">Podemos te ajudar.</span> Entre em contato conosco
+        e solicite um orçamento.
+      </p>
+      <form class="formulario" action="enviar-para-server" method="post">
+        <div class="fields">
+          <input type="text" id="nome" placeholder="Nome" />
+        </div>
+        <div class="fields">
+          <input type="text" id="email" placeholder="Email" />
+        </div>
+        <div class="fields">
+          <input type="text" id="cell" placeholder="Celular" />
+        </div>
+        <div class="fields">
+          <textarea id="msg" placeholder="Mensagem"></textarea>
+        </div>
+        <div class="termosuso">
+          <input type="checkbox" name="checktermos" />
+          <label for="termos">Aceito os termos de uso.</label>
+        </div>
+        <button type="submit">SAIBA MAIS! :D</button>
+      </form>
+    </section>
+
+    <style>
+      #iframe-footer {
+        width: 100%;
+        height: 185px;
+      }
+    </style>
+    <iframe id="iframe-footer" src="footer.html" frameborder="0"></iframe>
+  </body>
 </html>

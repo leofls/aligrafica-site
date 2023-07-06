@@ -1,0 +1,47 @@
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+    "logo logo logo"
+    "social social social"
+    "copy copy copy";
+
+    background: #D5DCD8;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.main-footer .logo {
+    grid-area: logo;
+    grid-column: 2;
+
+    margin: auto;
+
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.main-footer .links-social {
+    grid-area: social;
+    grid-column: 2;
+    text-align: center;
+
+}
+
+.main-footer .links-social .link-action {
+    transition: 0.3s ease;
+}
+.main-footer .links-social .link-action:hover {
+    opacity: 0.7;
+}
+
+.main-footer .copy {
+    grid-area: copy;
+    grid-column: 2;
+    text-align: center;
+
+}
