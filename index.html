@@ -14,22 +14,96 @@
       type="image/x-icon"
     />
     <title>Aligráfica</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <section>
+    <header>
+      <nav>
+        <!-- <img class="logo" src="./assets/img/iconAliG.ico" alt="logo"> -->
+        <a class="main-link" href="/">
+          <h2 class="logo-text">
+            Aligrafica
+          </h2>
+        </a>
+        
+        <ul class="nav-menu">
+          <li>
+            <a class="main-link" href="#">
+              Serviços
+            </a>
+          </li>
+          <li>
+            <a class="main-link" href="#">
+              Pacotes
+            </a>
+          </li>
+          <li>
+            <a class="main-link" href="#">
+              Segurança
+            </a>  
+          </li>
+          <li>
+            <a class="main-link" href="#">
+              Contato
+            </a>
+            
+          </li>
+        </ul>
+        
+        <div class="right-menu"></div>
+
+      </nav>
+      <section class="banner">
+
+      </section>      
+    </header>
+
+    <!---Seção do "Quem somos"--->
+    <section class="quem">
       <div class="quem_somos">
-        <h2>Quem somos</h2>
+        <h2>Sobre nós</h2>
         <p>
           Cada section deve ser identificado, geralmente incluindo um cabeçalho
           (elemento (en-US)(en-US)) como um filho do elemento section.
         </p>
       </div>
+      <div class="imagemquem">
+        <img src="./assets/img/image 12.png" />
+      </div>
     </section>
 
-    <section>
-      <div class="produtos">
+    <!---ELEMENTO PAI: Grid de Serviços--->
+    <section class="grids">
+      <div class="descservico">Serviços</div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="./assets/img/mingcute_shirt-line.png" />
+          <p>IMPRESSÃO DE CAMISAS</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/caneca.png" />
+          <p>IMPRESSÃO DE CANECAS</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/mdi_paper-edit.png" />
+          <p>IMPRESSÃO DE DOCUMENTOS</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/mdi_present.png" />
+          <p>IMPRESSÃO DE BRINDES</p>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/img/mdi_card-text-outline.png" />
+          <p>CARTÕES DE VISITA</p>
+        </div>
+      </div>
+      <button type="submit">SAIBA MAIS! :D</button>
+    </section>
+
+    <!---Seção dos "Produtos"--->
+    <section class="produtos">
+      <div class="descricaoprodutos">
         <h2>Produtos de alta qualidade</h2>
         <p>
           Nossa impressão de documentos e fotos é produzida com materiais de
@@ -37,8 +111,14 @@
           ou foto.
         </p>
       </div>
+      <div class="imagemproduto">
+        <img
+        src="https://www.ouroestamparia.com.br/static/3ad6a58273cc876b7a6429c0b176a602/47498/camiseta-berco-impressora-estampada.jpg"
+        />
+      </div>
     </section>
 
+    <!---Formulário de contato, no caso de dúvida--->
     <section class="duvida">
       <h2>AINDA COM DÚVIDAS?</h2>
       <p>
@@ -65,16 +145,13 @@
         <button type="submit">SAIBA MAIS! :D</button>
       </form>
     </section>
-   
+
     <style>
-        #iframe-footer {
-            width: 100%;
-            height: 185px;
-            
-        }
+      #iframe-footer {
+        width: 100%;
+        height: 185px;
+      }
     </style>
-    <iframe id="iframe-footer" src="footer.html" frameborder="0" ></iframe>
-    
-    
+    <iframe id="iframe-footer" src="footer.html" frameborder="0"></iframe>
   </body>
 </html>
