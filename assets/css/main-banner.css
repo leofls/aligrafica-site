@@ -1,0 +1,32 @@
+.main-banner{
+    height: 85vh;
+    background-image: url(../img/bg-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-banner .banner-bg-contain{
+    height: 100%;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.main-banner .text-banner {
+    max-width: 545px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main-banner .text-banner .title-banner {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.main-banner .text-banner .subtitle-banner {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}

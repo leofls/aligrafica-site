@@ -1,0 +1,26 @@
+.main-button{
+    padding: 11px 14px;
+    font-weight: 700;
+}
+
+.main-button i {
+    background-color: red;
+    width: 24px;
+    height: 24px;
+}
+
+.main-button.-whatsapp {
+    background-color: var(--solidyellowgreen);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s ease;
+}
+.main-button.-whatsapp:hover{
+    background-color: var(--mediumgray);
+}
+
+.main-button.-whatsapp .whatsapp-icon {
+    fill: #fff;
+}

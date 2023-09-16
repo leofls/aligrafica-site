@@ -21,7 +21,7 @@ body {
 header {
   background-color: var(--darkgray);
   color: var(--lightgray);
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 
 header nav {
@@ -68,19 +68,20 @@ header nav .nav-menu li {
   color: var(--mediumgreen);
 }
 
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
 .quem {
   display: flex;
   padding-bottom: 50px;
   padding-top: 50px;
   justify-content: space-between;
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   font-family: "Raleway";
   line-height: 30px;
-}
-.quem_somos h2 {
-  font-weight: 700;
-  font-size: 25px;
 }
 
 .quem_somos p {
@@ -92,15 +93,18 @@ header nav .nav-menu li {
   height: auto;
 }
 .grids {
-  padding: 30px 100px;
+  padding: 30px 0;
   margin-top: 20px;
   margin-bottom: 100px;
   background-color: var(--solidyellowgreen);
   font-family: "Raleway";
 }
+.servicos-container {
+  width: 80%;
+  margin: auto;
+}
 .descservico {
   margin-bottom: 20px;
-  font-size: 25px;
   color: #d5dcd8;
 }
 .grid-container {
@@ -149,7 +153,7 @@ header nav .nav-menu li {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  max-width: 70%;
+  max-width: 80%;
   gap: 62px;
 }
 .produtos .descricaoprodutos {

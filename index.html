@@ -16,6 +16,8 @@
     <title>Aligráfica</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/main-banner.css" />
+    <link rel="stylesheet" href="./assets/css/main-button.css" />
   </head>
   <body>
     <header>
@@ -54,15 +56,51 @@
         <div class="right-menu"></div>
 
       </nav>
-      <section class="banner">
 
+      <section class="main-banner">
+        <div class="banner-bg-contain">
+            <div class="text-banner">
+              <h1 class="title-banner">
+                Bacon ipsum dolor amet doner meatball ball tip.
+              </h1>
+              <p class="subtitle-banner">
+                Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et 
+                quo num tendi nada.Si u mundo tá muito paradis? Toma um mé que o 
+                mundo vai girarzis!Quem manda na minha terra sou euzis!Quem num 
+                gosta di mim que vai caçá sua turmis!
+              </p>
+              <a href="#" class="main-button -whatsapp">
+                <svg  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="whatsapp-icon" d="M15.05 2.50007C8.225 2.50007 2.6625 8.06257 2.6625 14.8876C2.6625 17.0751 3.2375 19.2001 4.3125 21.0751L2.5625 27.5001L9.125 25.7751C10.9375 26.7626 12.975 27.2876 15.05 27.2876C21.875 27.2876 27.4375 21.7251 27.4375 14.9001C27.4375 11.5876 26.15 8.47507 23.8125 6.13757C22.6665 4.97998 21.3015 4.06216 19.797 3.43764C18.2926 2.81312 16.6789 2.4944 15.05 2.50007ZM15.0625 4.58757C17.8125 4.58757 20.3875 5.66257 22.3375 7.61257C23.2945 8.56927 24.0532 9.70547 24.5702 10.956C25.0872 12.2066 25.3522 13.5469 25.35 14.9001C25.35 20.5751 20.725 25.1876 15.05 25.1876C13.2 25.1876 11.3875 24.7001 9.8125 23.7501L9.4375 23.5376L5.5375 24.5626L6.575 20.7626L6.325 20.3626C5.29243 18.7234 4.74627 16.8249 4.75 14.8876C4.7625 9.21257 9.375 4.58757 15.0625 4.58757ZM10.6625 9.16257C10.4625 9.16257 10.125 9.23757 9.8375 9.55007C9.5625 9.86257 8.75 10.6251 8.75 12.1376C8.75 13.6626 9.8625 15.1251 10 15.3376C10.175 15.5501 12.2 18.6751 15.3125 20.0001C16.05 20.3376 16.625 20.5251 17.075 20.6626C17.8125 20.9001 18.4875 20.8626 19.025 20.7876C19.625 20.7001 20.85 20.0376 21.1125 19.3126C21.375 18.5876 21.375 17.9751 21.3 17.8376C21.2125 17.7126 21.0125 17.6376 20.7 17.5001C20.3875 17.3251 18.8625 16.5751 18.5875 16.4751C18.3 16.3751 18.125 16.3251 17.8875 16.6251C17.6875 16.9376 17.0875 17.6376 16.9125 17.8376C16.725 18.0501 16.55 18.0751 16.25 17.9251C15.925 17.7626 14.925 17.4376 13.75 16.3876C12.825 15.5626 12.2125 14.5501 12.025 14.2376C11.875 13.9376 12.0125 13.7501 12.1625 13.6126C12.3 13.4751 12.5 13.2501 12.625 13.0626C12.7875 12.8876 12.8375 12.7501 12.9375 12.5501C13.0375 12.3376 12.9875 12.1626 12.9125 12.0126C12.8375 11.8751 12.2125 10.3251 11.95 9.71257C11.7 9.11257 11.45 9.18757 11.25 9.17507C11.075 9.17507 10.875 9.16257 10.6625 9.16257Z" fill="#3B3C3B"/>
+                </svg>
+                <p>
+                  SAIBA MAIS
+                </p>
+              </a>
+
+            </div>
+        </div>
       </section>      
     </header>
+
+    <!-- Valores -->
+    <section class="valores-section">
+      <div class="card-valor">
+        <img src="./assets//img/printer-icon.png" alt="Impressão" class="icon-valor">
+        <h2>IMPRESSÃO</h2>
+        <p>
+          Mussum Ipsum, cacilds vidis litro abertis. 
+          Praesent malesuada urna nisi, quis volutpat 
+          erat hendrerit non. Nam vulputate dapibus.Nullam 
+          volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Quem num gosta di mé, boa gentis num é.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+        </p>
+      </div>
+    </section>
 
     <!---Seção do "Quem somos"--->
     <section class="quem">
       <div class="quem_somos">
-        <h2>Sobre nós</h2>
+        <h2 class="main-title">Sobre nós</h2>
         <p>
           Cada section deve ser identificado, geralmente incluindo um cabeçalho
           (elemento (en-US)(en-US)) como um filho do elemento section.
@@ -75,30 +113,34 @@
 
     <!---ELEMENTO PAI: Grid de Serviços--->
     <section class="grids">
-      <div class="descservico">Serviços</div>
-      <div class="grid-container">
-        <div class="grid-item">
-          <img src="./assets/img/mingcute_shirt-line.png" />
-          <p>IMPRESSÃO DE CAMISAS</p>
+      <div class="servicos-container">
+        <h2 class="main-title descservico">Serviços</h2>
+  
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./assets/img/mingcute_shirt-line.png" />
+            <p>IMPRESSÃO DE CAMISAS</p>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img/caneca.png" />
+            <p>IMPRESSÃO DE CANECAS</p>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img/mdi_paper-edit.png" />
+            <p>IMPRESSÃO DE DOCUMENTOS</p>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img/mdi_present.png" />
+            <p>IMPRESSÃO DE BRINDES</p>
+          </div>
+          <div class="grid-item">
+            <img src="./assets/img/mdi_card-text-outline.png" />
+            <p>CARTÕES DE VISITA</p>
+          </div>
         </div>
-        <div class="grid-item">
-          <img src="./assets/img/caneca.png" />
-          <p>IMPRESSÃO DE CANECAS</p>
-        </div>
-        <div class="grid-item">
-          <img src="./assets/img/mdi_paper-edit.png" />
-          <p>IMPRESSÃO DE DOCUMENTOS</p>
-        </div>
-        <div class="grid-item">
-          <img src="./assets/img/mdi_present.png" />
-          <p>IMPRESSÃO DE BRINDES</p>
-        </div>
-        <div class="grid-item">
-          <img src="./assets/img/mdi_card-text-outline.png" />
-          <p>CARTÕES DE VISITA</p>
-        </div>
+        <button type="submit">SAIBA MAIS! :D</button>
+
       </div>
-      <button type="submit">SAIBA MAIS! :D</button>
     </section>
 
     <!---Seção dos "Produtos"--->
@@ -139,7 +181,7 @@
           <textarea id="msg" placeholder="Mensagem"></textarea>
         </div>
         <div class="termosuso">
-          <input type="checkbox" name="checktermos" />
+          <input type="checkbox" id="termos" name="checktermos" />
           <label for="termos">Aceito os termos de uso.</label>
         </div>
         <button type="submit">SAIBA MAIS! :D</button>
